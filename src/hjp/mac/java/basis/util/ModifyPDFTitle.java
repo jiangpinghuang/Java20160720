@@ -52,7 +52,7 @@ public class ModifyPDFTitle {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			title = title + "(NAACL2016).pdf";
+			title = title + ".pdf";
 			renFile(filePath, title);
 		}
 
